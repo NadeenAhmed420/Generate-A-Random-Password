@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #002337;
+  color: white;
+}
+.container {
+  max-width: 90%;
+  width: 700px;
+  margin: 150px 100px;
+}
+@media (max-width: 576px) {
+  .container {
+    margin: 150px 10px;
+  }
+  .container h1 {
+    font-size: 30px !important;
+  }
+  .container h1 span {
+    padding-bottom: 0px !important;
+  }
+  .display {
+    width: 100% !important;
+    padding: 15px !important;
+    margin-top: 20px !important;
+  }
+  .display input,
+  .display input::placeholder {
+    font-size: 20px !important;
+  }
+  .container button {
+    width: 100%;
+  }
+}
+.container h1 {
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 15px;
+}
+.display {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.display input,
+.container button {
+  border: none;
+  outline: none;
+}
+
+.display input {
+  width: 80%;
+  font-size: 22px;
+  color: #002337;
+  font-size: 22px;
+}
+.display input::placeholder {
+  font-size: 25px;
+}
+
+button img {
+  max-width: 28px;
+  margin-left: 10px;
+}
+
+.container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #019f55;
+  color: #fff;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 300 !important;
+  cursor: pointer;
+}
